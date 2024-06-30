@@ -1,4 +1,14 @@
-# Nuxt 3 useHead 如何自定义 script 标签渲染顺序
+---
+title: "Nuxt 3 useHead 如何自定义 script 标签渲染顺序"
+meta_title: ""
+description: "Nuxt 3 使用 useHead 的 tagPriority 属性自定义 script 标签渲染顺序。"
+date: 2024-06-30T01:42:09.525Z
+image: "/images/blog-cover/nuxt-head-script-sort.jpg"
+categories: ["Technology","Front end"]
+author: "hbb"
+tags: ["technology"]
+draft: false
+---
 
 Nuxt 中我们使用 [useHead](https://nuxt.com/docs/api/composables/use-head) 等一系列方法在 html 中渲染 script 内容，一些时候我们需要确保某些script以正确的顺序渲染并执行，那如何确保渲染顺序呢？
 
